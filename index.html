@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <main class="container d-flex flex-column justify-content-center my-5 w-50 mx-auto p-3" id="weather-container">
+      <h1 class="text-center text-light mt-5">Weather App</h1>
+      <form class="form" id="weather-form">
+        <div class="d-flex w-50 mx-auto my-3">
+          <input
+            class="form-control border-light"
+            type="text"
+            id="city"
+            placeholder="Enter a city..."
+            required
+          />
+          <button class="btn btn-light ml-2" type="submit">
+            <span class="material-symbols-outlined">search</span>
+          </button>
+        </div>
+      </form>
+      <div class="container shadow-lg text-light w-75 mx-auto text-center bg-transparent rounded p-3" id="weather-info">
+        <img style="object-fit: cover;" class="img-fluid rounded" src="https://i.pinimg.com/originals/94/76/5c/94765cc674ee3688fb3fa6478dc435aa.png" alt="#">
+        <!-- <h2 class="h1"> °C</h2>
+        <div class="container mx-auto  d-flex flex-column justify-content-between align-items-center p-3">
+          <div class="d-flex">
+            <p class="h5">Felt: </p>
+            <p class="material-symbols-outlined">device_thermostat</p>
+          </div>
+          <div class="d-flex">
+            <p class="h5">Wind Speed: </p>
+            <p class="material-symbols-outlined">air</p>
+          </div>
+          <div class="d-flex">
+            <p class="h5">Humidty: </p>
+            <p class="material-symbols-outlined">humidity_percentage</p>
+          </div>
+        </div>
+      </div> -->
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
